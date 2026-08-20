@@ -7,6 +7,7 @@ public record JobPosition(
     string Level,
     string Location,
     string Type,
+    string ApplicationUrl,
     string? Description = null,
     List<string>? Requirements = null
 );
